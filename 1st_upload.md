@@ -28,4 +28,23 @@ First step for building the function was converting the input (int) into a strin
 
   numbers = str(number)
 
-Then the core of the function, which is 
+Then the core of the function, which is where the actual squaring happens.
+
+  squared = ''.join(str(int(d)**2) for d in numbers)
+
+The most important part of the line is where the individual digits are converted into integers then squared
+  
+  int(d)**2
+
+Then, to make it iterable, it was turned into a string
+  
+  str(int(d)**2) for d in numbers
+
+Followed by the concatenation of the individual squared digits by storing it into a new variable
+
+squared = ''.join(str(int(d)**2) for d in numbers)
+
+Lastly, in order to return according to the tasks' parameters, the new variable had to be converted into an integer
+
+return = int(squared)
+
