@@ -4,4 +4,5 @@ Here I keep track of my Python learning with code I want to remember, along with
 #1st upload
 CodeWars Kata: square every digit challenge.
 
-  
+#2nd upload
+CodeWars Kata: alphabet position.
